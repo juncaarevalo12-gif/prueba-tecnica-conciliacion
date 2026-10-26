@@ -1,0 +1,15 @@
+{
+  ".gitignore": "31946f4ce88eeec685931e183942ae0b37210d3c2d84d0e5d873f348c31dd2b1",
+  "conciliador/__init__.py": "5e717a86eb57817d808d3349073d1778f419a9d6ce3ea4af0ac916e3bcbdb84f",
+  "conciliador/__main__.py": "5478a26b0958565befdf261638e911a689f12141dfdc212500d6afb6be15b041",
+  "conciliador/engine.py": "c30084a3e4dc009d33695131a1c739a07811103830de69188632c4b461ba0b90",
+  "datos/ejemplo/esperado.json": "a964cc93d2e97a9e8264c6ad6dbc7f097bb2bd75b386eb7e094e2e64271e13f2",
+  "datos/ejemplo/facturas.csv": "e9202229e4675e60e703def63d69642e2a2b715a9b869711dfc0e5b8b29ed442",
+  "datos/ejemplo/pagos.csv": "a94db2314102f39502368a4f07534e8f5191b6ba36d6cf86dedcfed2341e304e",
+  "ENTREGA.md": "57e0f95ecfa2b77dcc37ce129f6dcc0770b5d0ff65252b76618572ca3f052c12",
+  "ENUNCIADO.md": "2a900bf88d8549f6f1e67a2825d77972327567ca355ceaa1fe49e340d3528838",
+  "README.md": "cf7af103267d161fffcf23641811dc3008c59899df2175d0f62d4844660118b4",
+  "requirements.txt": "1b589e6a873892d52b982dd20f85ed20e2de31118b0841e44a7e31663dbd7e19",
+  "tests/__init__.py": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+  "tests/test_publicos.py": "ac64f1ce21f3e4f8489aaf5b07f5ae48bbfef243a2e836a56c89ffc1e8baea2f"
+}

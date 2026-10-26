@@ -1,0 +1,115 @@
+{
+  "resumen": [
+    {
+      "factura_id": "F100",
+      "cliente_id": "C01",
+      "fecha_vencimiento": "2026-09-30",
+      "importe": "100.00",
+      "pagado": "60.00",
+      "saldo": "40.00",
+      "estado": "PARCIAL",
+      "vencida": "SI"
+    },
+    {
+      "factura_id": "F200",
+      "cliente_id": "C02",
+      "fecha_vencimiento": "2026-10-10",
+      "importe": "200.00",
+      "pagado": "200.00",
+      "saldo": "0.00",
+      "estado": "PAGADA",
+      "vencida": "NO"
+    },
+    {
+      "factura_id": "F300",
+      "cliente_id": "C01",
+      "fecha_vencimiento": "2026-10-01",
+      "importe": "50.00",
+      "pagado": "0.00",
+      "saldo": "50.00",
+      "estado": "PENDIENTE",
+      "vencida": "SI"
+    },
+    {
+      "factura_id": "F400",
+      "cliente_id": "C03",
+      "fecha_vencimiento": "2026-10-20",
+      "importe": "80.00",
+      "pagado": "100.00",
+      "saldo": "-20.00",
+      "estado": "SOBREPAGADA",
+      "vencida": "NO"
+    },
+    {
+      "factura_id": "F500",
+      "cliente_id": "C04",
+      "fecha_vencimiento": "2026-10-15",
+      "importe": "10.00",
+      "pagado": "0.00",
+      "saldo": "10.00",
+      "estado": "PENDIENTE",
+      "vencida": "NO"
+    },
+    {
+      "factura_id": "F600",
+      "cliente_id": "C04",
+      "fecha_vencimiento": "2026-11-01",
+      "importe": "30.00",
+      "pagado": "0.00",
+      "saldo": "30.00",
+      "estado": "PENDIENTE",
+      "vencida": "NO"
+    }
+  ],
+  "incidencias": [
+    {
+      "archivo": "facturas",
+      "fila": "8",
+      "codigo": "FACTURA_DUPLICADA",
+      "referencia": "F200"
+    },
+    {
+      "archivo": "facturas",
+      "fila": "9",
+      "codigo": "FILA_INVALIDA",
+      "referencia": "F700"
+    },
+    {
+      "archivo": "pagos",
+      "fila": "6",
+      "codigo": "PAGO_DUPLICADO",
+      "referencia": "P01"
+    },
+    {
+      "archivo": "pagos",
+      "fila": "7",
+      "codigo": "FACTURA_NO_EXISTE",
+      "referencia": "P05"
+    },
+    {
+      "archivo": "pagos",
+      "fila": "8",
+      "codigo": "CLIENTE_NO_COINCIDE",
+      "referencia": "P06"
+    },
+    {
+      "archivo": "pagos",
+      "fila": "9",
+      "codigo": "PAGO_FUERA_CORTE",
+      "referencia": "P07"
+    },
+    {
+      "archivo": "pagos",
+      "fila": "10",
+      "codigo": "FILA_INVALIDA",
+      "referencia": "P08"
+    }
+  ],
+  "totales": {
+    "facturas_validas": 6,
+    "importe": "470.00",
+    "pagado": "360.00",
+    "saldo": "110.00",
+    "incidencias": 7
+  }
+}
